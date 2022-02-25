@@ -33,6 +33,15 @@ namespace cadastroDeCliente
         protected global::System.Web.UI.WebControls.Label txtNome;
 
         /// <summary>
+        /// Controle tNome.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText tNome;
+
+        /// <summary>
         /// Controle txtSexo.
         /// </summary>
         /// <remarks>
@@ -51,6 +60,15 @@ namespace cadastroDeCliente
         protected global::System.Web.UI.WebControls.Label txtCpf;
 
         /// <summary>
+        /// Controle tCpf.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl tCpf;
+
+        /// <summary>
         /// Controle txtRg.
         /// </summary>
         /// <remarks>
@@ -58,6 +76,15 @@ namespace cadastroDeCliente
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label txtRg;
+
+        /// <summary>
+        /// Controle tRg.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText tRg;
 
         /// <summary>
         /// Controle txtDataNascimento.
@@ -69,6 +96,15 @@ namespace cadastroDeCliente
         protected global::System.Web.UI.WebControls.Label txtDataNascimento;
 
         /// <summary>
+        /// Controle tDataNascimento.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl tDataNascimento;
+
+        /// <summary>
         /// Controle txtEndereco.
         /// </summary>
         /// <remarks>
@@ -76,6 +112,15 @@ namespace cadastroDeCliente
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label txtEndereco;
+
+        /// <summary>
+        /// Controle tEndereco.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText tEndereco;
 
         /// <summary>
         /// Controle Button.

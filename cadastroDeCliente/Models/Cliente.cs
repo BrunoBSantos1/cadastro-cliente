@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations;
 
 namespace cadastroDeCliente.Models
 {
@@ -9,16 +10,23 @@ namespace cadastroDeCliente.Models
     {
         public Cliente() { }
 
+        [Required]
+        [StringLength(6, ErrorMessage ="Acima de 6")]
         public string Nome { get; set; }
 
+        
         public string Sexo { get; set; }
 
+        [Required]
         public string Cpf { get; set; }
 
+        [Required]
         public string Rg { get; set; }
 
-        public string dataNascimento { get; set; }
+        [Required]
+        public string DataNascimento { get; set; }
 
+        [Required]
         public string Endereco { get; set; }
 
         public static List<Cliente> Lista = new List<Cliente>();
